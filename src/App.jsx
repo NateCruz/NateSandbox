@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <a href='www.happy.com' target='_blank'>
+        <a href='www.puppies.com' target='_blank'>
           <img src={viteLogo} className='logo' alt='Vite logo' />
         </a>
-        <a href='www.love.com' target='_blank'>
+        <a href='www.cats.com' target='_blank'>
           <img src={reactLogo} className='logo react' alt='React logo' />
         </a>
       </div>
@@ -21,9 +21,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <p>and Atlas too</p>
       </div>
       <p className='read-the-docs'>
         Click on the Vite and React logos to learn more
